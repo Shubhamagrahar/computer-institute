@@ -1,0 +1,34 @@
+HTTrack3.49-2+htsswf+htsjava launched on Thu, 20 Feb 2025 11:33:53 at https://www.ifiteducation.in/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://www.ifiteducation.in/ -O1 "C:\My Web Sites\ifit" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+11:34:22	Error: 	"Not Found" (404) at link https://www.ifiteducation.in/img/favicon.ico (from https://www.ifiteducation.in/)
+11:34:39	Warning: 	Retry after error -5 (error:00000001:lib(0):func(0):reason(1)) at link https://code.tidio.co:443/lfibhuhttajjfpucjteoaijtfqf9lwa8.js (from https://www.ifiteducation.in/)
+11:34:39	Warning: 	Retry after error -4 (No data (connection closed)) at link https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/fonts/bootstrap-icons.woff2?231ce25e89ab5804f9a6c427b8d325c9 (from https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css)
+11:34:39	Error: 	"Not Found" (404) at link https://www.ifiteducation.in/style.css (from https://www.ifiteducation.in/gallery.html)
+11:34:47	Error: 	"Not Found" (404) at link https://www.ifiteducation.in/course.html (from https://www.ifiteducation.in/VERIFY/)
+11:34:47	Error: 	"Not Found" (404) at link https://www.ifiteducation.in/teacher.html (from https://www.ifiteducation.in/VERIFY/)
+11:34:47	Error: 	"Not Found" (404) at link https://www.ifiteducation.in/blog.html (from https://www.ifiteducation.in/VERIFY/)
+11:34:47	Error: 	"Not Found" (404) at link https://www.ifiteducation.in/single.html (from https://www.ifiteducation.in/VERIFY/)
+11:34:47	Error: 	"Not Found" (404) at link https://www.ifiteducation.in/mail/jqBootstrapValidation.min.js (from https://www.ifiteducation.in/VERIFY/)
+11:34:47	Error: 	"Not Found" (404) at link https://www.ifiteducation.in/mail/contact.js (from https://www.ifiteducation.in/VERIFY/)
+11:34:47	Warning: 	Retry after error -5 (error:00000001:lib(0):func(0):reason(1)) at link https://code.tidio.co:443/lfibhuhttajjfpucjteoaijtfqf9lwa8.js (from https://www.ifiteducation.in/)
+11:35:18	Error: 	"Not Found" (404) at link https://www.ifiteducation.in/VERIFY/img/page-header.jpg (from https://www.ifiteducation.in/VERIFY/css/style.css)
+11:35:18	Error: 	"Not Found" (404) at link https://www.ifiteducation.in/VERIFY/img/registration.jpg (from https://www.ifiteducation.in/VERIFY/css/style.css)
+11:35:18	Error: 	"Not Found" (404) at link https://www.ifiteducation.in/VERIFY/POST (from https://www.ifiteducation.in/WebResource.axd?d=-iKfcJAj-WJjNNtV84jNcXqYZFLHUhaOFqacp0z_KcZQDJf8fsHU9yjUy2LoR5u_IEgQc1pmQCNHE6ujOCV4HJLwyMQ1&t=638393456620000000)
+11:35:18	Error: 	"Not Found" (404) at link https://www.ifiteducation.in/VERIFY/Firefox/ (from https://www.ifiteducation.in/ScriptResource.axd?d=OYa0RvwGplvZj_5I3ZVPceKRWgRub6VcYUofm2QYeBl-QmeD3gfbO2oObjMndTTSK9czWc8r_SCjOR3GmtFj8T-fk0Kk7X1-qXlJmSI0MW-qb54_Bxw87eidhuxCz7YSNDSCiPAjHAb6f6BAqSqI5bMwqJ39dWmXR8PKre5sXx3AJKpc0&t=511fa37d)
+11:35:18	Error: 	"Not Found" (404) at link https://www.ifiteducation.in/VERIFY/AppleWebKit/ (from https://www.ifiteducation.in/ScriptResource.axd?d=OYa0RvwGplvZj_5I3ZVPceKRWgRub6VcYUofm2QYeBl-QmeD3gfbO2oObjMndTTSK9czWc8r_SCjOR3GmtFj8T-fk0Kk7X1-qXlJmSI0MW-qb54_Bxw87eidhuxCz7YSNDSCiPAjHAb6f6BAqSqI5bMwqJ39dWmXR8PKre5sXx3AJKpc0&t=511fa37d)
+11:35:18	Error: 	"Not Found" (404) at link https://www.ifiteducation.in/VERIFY/Opera/ (from https://www.ifiteducation.in/ScriptResource.axd?d=OYa0RvwGplvZj_5I3ZVPceKRWgRub6VcYUofm2QYeBl-QmeD3gfbO2oObjMndTTSK9czWc8r_SCjOR3GmtFj8T-fk0Kk7X1-qXlJmSI0MW-qb54_Bxw87eidhuxCz7YSNDSCiPAjHAb6f6BAqSqI5bMwqJ39dWmXR8PKre5sXx3AJKpc0&t=511fa37d)
+11:35:18	Error: 	"Not Found" (404) at link https://www.ifiteducation.in/VERIFY/MicrosoftAjaxWebForms.js (from https://www.ifiteducation.in/ScriptResource.axd?d=iPDbn4sEWCCa2DEVlRHbGmCXsLeligkRhZB58TrBpgR16OF4QDAQKWTGMHuihBg5rwipZVWB4rgvKCqjEm9qswbWrMzqi2UPtbHL66uzWbUm_0h0TclLYvZVpThHDHAgi9nDD8fs_8g0OqCVNNELf_nVWW6Ph8uMixbqbJeBRJSYie_50&t=511fa37d)
+11:35:18	Error: 	"Not Found" (404) at link https://www.ifiteducation.in/VERIFY/MicrosoftAjaxSerialization.js (from https://www.ifiteducation.in/ScriptResource.axd?d=iPDbn4sEWCCa2DEVlRHbGmCXsLeligkRhZB58TrBpgR16OF4QDAQKWTGMHuihBg5rwipZVWB4rgvKCqjEm9qswbWrMzqi2UPtbHL66uzWbUm_0h0TclLYvZVpThHDHAgi9nDD8fs_8g0OqCVNNELf_nVWW6Ph8uMixbqbJeBRJSYie_50&t=511fa37d)
+11:35:18	Error: 	"Not Found" (404) at link https://www.ifiteducation.in/VERIFY/MicrosoftAjaxNetwork.js (from https://www.ifiteducation.in/ScriptResource.axd?d=iPDbn4sEWCCa2DEVlRHbGmCXsLeligkRhZB58TrBpgR16OF4QDAQKWTGMHuihBg5rwipZVWB4rgvKCqjEm9qswbWrMzqi2UPtbHL66uzWbUm_0h0TclLYvZVpThHDHAgi9nDD8fs_8g0OqCVNNELf_nVWW6Ph8uMixbqbJeBRJSYie_50&t=511fa37d)
+11:35:18	Error: 	"error:00000001:lib(0):func(0):reason(1)" (-5) after 2 retries at link https://code.tidio.co:443/lfibhuhttajjfpucjteoaijtfqf9lwa8.js (from https://www.ifiteducation.in/)
+11:35:18	Error: 	"Not Found" (404) at link https://www.ifiteducation.in/Verify/img/page-header.jpg (from https://www.ifiteducation.in/Verify/css/style.css)
+11:35:18	Error: 	"Not Found" (404) at link https://www.ifiteducation.in/Verify/img/registration.jpg (from https://www.ifiteducation.in/Verify/css/style.css)
+
+HTTrack Website Copier/3.49-2 mirror complete in 1 minutes 25 seconds : 181 links scanned, 156 files written (7729274 bytes overall) [7150484 bytes received at 84123 bytes/sec], 1576831 bytes transferred using HTTP compression in 41 files, ratio 59%
+(20 errors, 3 warnings, 0 messages)

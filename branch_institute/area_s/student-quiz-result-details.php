@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible"
+              content="IE=edge">
+        <meta name="viewport"
+              content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Quiz Result Details</title>
+
+        <!-- Prevent the demo from appearing in search engines -->
+        <meta name="robots" content="noindex">
+
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CRoboto:400,500%7CExo+2:600&amp;display=swap"
+              rel="stylesheet">
+
+        <!-- Preloader -->
+        <link type="text/css" href="public/vendor/spinkit.css" rel="stylesheet">
+
+        <!-- Perfect Scrollbar -->
+        <link type="text/css" href="public/vendor/perfect-scrollbar.css" rel="stylesheet">
+
+        <!-- Material Design Icons -->
+        <link type="text/css" href="public/css/material-icons.css" rel="stylesheet">
+        <!-- Material Icons from Google Fonts -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+        <!-- Font Awesome Icons -->
+        <link type="text/css" href="public/css/fontawesome.css" rel="stylesheet">
+
+        <!-- Preloader -->
+        <link type="text/css" href="public/css/preloader.css" rel="stylesheet">
+
+        <!-- App CSS -->
+        <link type="text/css" href="public/css/app.css" rel="stylesheet">
+
+    </head>
+
+    <body class="layout-app ">
+
+        <div class="preloader">
+            <div class="sk-chase">
+                <div class="sk-chase-dot"></div>
+                <div class="sk-chase-dot"></div>
+                <div class="sk-chase-dot"></div>
+                <div class="sk-chase-dot"></div>
+                <div class="sk-chase-dot"></div>
+                <div class="sk-chase-dot"></div>
+            </div>
+
+            <!-- <div class="sk-bounce">
+    <div class="sk-bounce-dot"></div>
+    <div class="sk-bounce-dot"></div>
+  </div> -->
+
+        </div>
+
+        <!-- Drawer Layout -->
+
+        <div class="mdk-drawer-layout js-mdk-drawer-layout"
+             data-push
+             data-responsive-width="992px">
+            <div class="mdk-drawer-layout__content page-content">
+
+                <!-- Header -->
+
+                <!-- Navbar -->
+
+                <?php include 'top-navbar.php'; ?>
+
+                <!-- // END Navbar -->
+
+                <!-- // END Header -->
+
+                <!-- BEFORE Page Content -->
+
+                <!-- // END BEFORE Page Content -->
+
+                <!-- Page Content -->
+
+                <div class="navbar navbar-list navbar-light bg-white border-bottom-2 border-bottom navbar-expand-sm"
+                     style="white-space: nowrap;">
+                    <div class="container page__container">
+                        <nav class="nav navbar-nav">
+                            <div class="nav-item navbar-list__item">
+                                <a href="student-take-course"
+                                   class="nav-link h-auto"><i class="material-icons icon--left">keyboard_backspace</i> Back to Course</a>
+                            </div>
+                            <div class="nav-item navbar-list__item">
+                                <div class="d-flex align-items-center flex-nowrap">
+                                    <div class="mr-16pt">
+                                        <a href="student-take-course"><img src="public/images/paths/angular_64x64.png"
+                                                 width="40"
+                                                 alt="Angular"
+                                                 class="rounded"></a>
+                                    </div>
+                                    <div class="flex">
+                                        <a href="student-take-course"
+                                           class="card-title text-body mb-0">Angular Fundamentals</a>
+                                        <p class="lh-1 d-flex align-items-center mb-0">
+                                            <span class="text-50 small font-weight-bold mr-8pt">Elijah Murray</span>
+                                            <span class="text-50 small">Software Engineer and Developer</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+                <div class="mdk-box bg-primary mdk-box--bg-gradient-primary2 js-mdk-box mb-0"
+                     data-effects="blend-background">
+                    <div class="mdk-box__content">
+                        <div class="py-64pt text-center text-sm-left">
+                            <div class="container d-flex flex-column justify-content-center align-items-center">
+                                <p class="lead text-white-50 measure-lead-max mb-0">Submited on 02 Jan 2019</p>
+                                <h1 class="text-white mb-24pt">Your Score: 350</h1>
+                                <a href="student-take-quiz"
+                                   class="btn btn-outline-white">Restart quiz</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="navbar navbar-expand-sm navbar-light navbar-submenu navbar-list p-0 m-0 align-items-center">
+                    <div class="container page__container">
+                        <ul class="nav navbar-nav flex align-items-sm-center">
+                            <li class="nav-item navbar-list__item">350/450 Score</li>
+                            <li class="nav-item navbar-list__item">
+                                <i class="material-icons text-muted icon--left">schedule</i>
+                                12 minutes
+                            </li>
+                            <li class="nav-item navbar-list__item">
+                                <i class="material-icons text-muted icon--left">assessment</i>
+                                Intermediate
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="container page__container">
+                    <div class="border-left-2 page-section pl-32pt">
+
+                        <div class="d-flex align-items-center page-num-container mb-16pt">
+                            <div class="page-num">2</div>
+                            <h4>Question 2 of 5</h4>
+                        </div>
+
+                        <p class="text-70 measure-lead mb-32pt mb-lg-48pt">An angular 2 project written in typescript is* transpiled to javascript duri*ng the build process. Which of the following additional features are provided to the developer while programming on typescript over javascript?</p>
+
+                        <ul class="list-quiz">
+                            <li class="list-quiz-item">
+                                <span class="list-quiz-badge">A</span>
+                                <span class="list-quiz-text">Ability to use newer syntax and offers reliability</span>
+                            </li>
+                            <li class="list-quiz-item active">
+                                <span class="list-quiz-badge bg-primary text-white"><i class="material-icons">check</i></span>
+                                <span class="list-quiz-text">Compatibility</span>
+                            </li>
+                            <li class="list-quiz-item">
+                                <span class="list-quiz-badge">C</span>
+                                <span class="list-quiz-text">Usage of missing features</span>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+
+                <!-- // END Page Content -->
+
+                <!-- Footer -->
+
+                <?php include 'footer.php'; ?>
+
+                <!-- // END Footer -->
+
+            </div>
+
+            <!-- // END drawer-layout__content -->
+
+            <!-- Drawer -->
+
+            <?php include 'left-navbar.php'; ?>
+
+            <!-- // END Drawer -->
+
+        </div>
+
+        <!-- // END Drawer Layout -->
+
+        <!-- jQuery -->
+        <script src="public/vendor/jquery.min.js"></script>
+
+        <!-- Bootstrap -->
+        <script src="public/vendor/popper.min.js"></script>
+        <script src="public/vendor/bootstrap.min.js"></script>
+
+        <!-- Perfect Scrollbar -->
+        <script src="public/vendor/perfect-scrollbar.min.js"></script>
+
+        <!-- DOM Factory -->
+        <script src="public/vendor/dom-factory.js"></script>
+
+        <!-- MDK -->
+        <script src="public/vendor/material-design-kit.js"></script>
+
+        <!-- App JS -->
+        <script src="public/js/app.js"></script>
+
+        <!-- Preloader -->
+        <script src="public/js/preloader.js"></script>
+
+    </body>
+
+</html>

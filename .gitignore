@@ -1,0 +1,6 @@
+con.php
+uploads/
+assets/uploads/
+*.log
+Thumbs.db
+.DS_Store

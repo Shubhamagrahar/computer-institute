@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Lesson</title>
+
+        <!-- Prevent the demo from appearing in search engines -->
+        <meta name="robots" content="noindex">
+
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CRoboto:400,500%7CExo+2:600&amp;display=swap" rel="stylesheet">
+
+        <!-- Preloader -->
+        <link type="text/css" href="public/vendor/spinkit.css" rel="stylesheet">
+
+        <!-- Perfect Scrollbar -->
+        <link type="text/css" href="public/vendor/perfect-scrollbar.css" rel="stylesheet">
+
+        <!-- Material Design Icons -->
+        <link type="text/css" href="public/css/material-icons.css" rel="stylesheet">
+        <!-- Material Icons from Google Fonts -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+        <!-- Font Awesome Icons -->
+        <link type="text/css" href="public/css/fontawesome.css" rel="stylesheet">
+
+        <!-- Preloader -->
+        <link type="text/css" href="public/css/preloader.css" rel="stylesheet">
+
+        <!-- App CSS -->
+        <link type="text/css" href="public/css/app.css" rel="stylesheet">
+
+    </head>
+
+    <body class="layout-app ">
+
+        <div class="preloader">
+            <div class="sk-chase">
+                <div class="sk-chase-dot"></div>
+                <div class="sk-chase-dot"></div>
+                <div class="sk-chase-dot"></div>
+                <div class="sk-chase-dot"></div>
+                <div class="sk-chase-dot"></div>
+                <div class="sk-chase-dot"></div>
+            </div>
+
+            <!-- <div class="sk-bounce">
+    <div class="sk-bounce-dot"></div>
+    <div class="sk-bounce-dot"></div>
+  </div> -->
+
+        </div>
+
+        <!-- Drawer Layout -->
+
+        <div class="mdk-drawer-layout js-mdk-drawer-layout"
+             data-push
+             data-responsive-width="992px">
+            <div class="mdk-drawer-layout__content page-content">
+
+                <!-- Header -->
+
+                <!-- Navbar -->
+
+                <div class="navbar navbar-expand pr-0 navbar-light border-bottom-2"
+                     id="default-navbar"
+                     data-primary>
+
+                    <!-- Navbar Toggler -->
+
+                    <button class="navbar-toggler w-auto mr-16pt d-block d-lg-none rounded-0"
+                            type="button"
+                            data-toggle="sidebar">
+                        <span class="material-icons">short_text</span>
+                    </button>
+
+                    <!-- // END Navbar Toggler -->
+
+                    <!-- Navbar Brand -->
+
+                    <a href="./"
+                       class="navbar-brand mr-16pt d-lg-none">
+
+                        <span class="avatar avatar-sm navbar-brand-icon mr-0 mr-lg-8pt">
+
+                            <span class="avatar-title rounded bg-primary"><img src="https://luma.humatheme.com/public/images/illustration/student/128/white.svg"
+                                     alt="logo"
+                                     class="img-fluid" /></span>
+
+                        </span>
+
+                        <span class="d-none d-lg-block">Luma</span>
+                    </a>
+
+                    <!-- // END Navbar Brand -->
+
+                    <span class="d-none d-md-flex align-items-center mr-16pt">
+
+                        <span class="avatar avatar-sm mr-12pt">
+
+                            <span class="avatar-title rounded navbar-avatar"><i class="material-icons">opacity</i></span>
+
+                        </span>
+
+                        <small class="flex d-flex flex-column">
+                            <strong class="navbar-text-100">Experience IQ</strong>
+                            <span class="navbar-text-50">2,300 points</span>
+                        </small>
+                    </span>
+
+                    <div class="flex"></div>
+
+                    <!-- Switch Layout -->
+
+                    <a href="student-take-lesson"
+                       class="navbar-toggler navbar-toggler-custom align-items-center justify-content-center d-none d-lg-flex"
+                       data-toggle="tooltip"
+                       data-title="Switch to Compact Layout"
+                       data-placement="bottom"
+                       data-boundary="window">
+                        <span class="material-icons">swap_horiz</span>
+                    </a>
+
+                    <!-- // END Switch Layout -->
+
+                    <!-- Navbar Menu -->
+
+                    <div class="nav navbar-nav flex-nowrap d-flex mr-16pt">
+
+                        <!-- Notifications dropdown -->
+                        <div class="nav-item dropdown dropdown-notifications dropdown-xs-down-full"
+                             data-toggle="tooltip"
+                             data-title="Messages"
+                             data-placement="bottom"
+                             data-boundary="window">
+                            <button class="nav-link btn-flush dropdown-toggle"
+                                    type="button"
+                                    data-toggle="dropdown"
+                                    data-caret="false">
+                                <i class="material-icons icon-24pt">mail_outline</i>
+                            </button>
+                            <div class="dropdown-menu dropdown-menu-right">
+                                <div data-perfect-scrollbar
+                                     class="position-relative">
+                                    <div class="dropdown-header"><strong>Messages</strong></div>
+                                    <div class="list-group list-group-flush mb-0">
+
+                                        <a href="javascript:void(0);"
+                                           class="list-group-item list-group-item-action unread">
+                                            <span class="d-flex align-items-center mb-1">
+                                                <small class="text-black-50">5 minutes ago</small>
+
+                                                <span class="ml-auto unread-indicator bg-accent"></span>
+
+                                            </span>
+                                            <span class="d-flex">
+                                                <span class="avatar avatar-xs mr-2">
+                                                    <img src="public/images/people/110/woman-5.jpg"
+                                                         alt="people"
+                                                         class="avatar-img rounded-circle">
+                                                </span>
+                                                <span class="flex d-flex flex-column">
+                                                    <strong class="text-black-100">Michelle</strong>
+                                                    <span class="text-black-70">Clients loved the new design.</span>
+                                                </span>
+                                            </span>
+                                        </a>
+
+                                        <a href="javascript:void(0);"
+                                           class="list-group-item list-group-item-action">
+                                            <span class="d-flex align-items-center mb-1">
+                                                <small class="text-black-50">5 minutes ago</small>
+
+                                            </span>
+                                            <span class="d-flex">
+                                                <span class="avatar avatar-xs mr-2">
+                                                    <img src="public/images/people/110/woman-5.jpg"
+                                                         alt="people"
+                                                         class="avatar-img rounded-circle">
+                                                </span>
+                                                <span class="flex d-flex flex-column">
+                                                    <strong class="text-black-100">Michelle</strong>
+                                                    <span class="text-black-70">🔥 Superb job..</span>
+                                                </span>
+                                            </span>
+                                        </a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- // END Notifications dropdown -->
+
+                        <!-- Notifications dropdown -->
+                        <div class="nav-item ml-16pt dropdown dropdown-notifications dropdown-xs-down-full"
+                             data-toggle="tooltip"
+                             data-title="Notifications"
+                             data-placement="bottom"
+                             data-boundary="window">
+                            <button class="nav-link btn-flush dropdown-toggle"
+                                    type="button"
+                                    data-toggle="dropdown"
+                                    data-caret="false">
+                                <i class="material-icons">notifications_none</i>
+                                <span class="badge badge-notifications badge-accent">2</span>
+                            </button>
+                            <div class="dropdown-menu dropdown-menu-right">
+                                <div data-perfect-scrollbar
+                                     class="position-relative">
+                                    <div class="dropdown-header"><strong>System notifications</strong></div>
+                                    <div class="list-group list-group-flush mb-0">
+
+                                        <a href="javascript:void(0);"
+                                           class="list-group-item list-group-item-action unread">
+                                            <span class="d-flex align-items-center mb-1">
+                                                <small class="text-black-50">3 minutes ago</small>
+
+                                                <span class="ml-auto unread-indicator bg-accent"></span>
+
+                                            </span>
+                                            <span class="d-flex">
+                                                <span class="avatar avatar-xs mr-2">
+                                                    <span class="avatar-title rounded-circle bg-light">
+                                                        <i class="material-icons font-size-16pt text-accent">account_circle</i>
+                                                    </span>
+                                                </span>
+                                                <span class="flex d-flex flex-column">
+
+                                                    <span class="text-black-70">Your profile information has not been synced correctly.</span>
+                                                </span>
+                                            </span>
+                                        </a>
+
+                                        <a href="javascript:void(0);"
+                                           class="list-group-item list-group-item-action">
+                                            <span class="d-flex align-items-center mb-1">
+                                                <small class="text-black-50">5 hours ago</small>
+
+                                            </span>
+                                            <span class="d-flex">
+                                                <span class="avatar avatar-xs mr-2">
+                                                    <span class="avatar-title rounded-circle bg-light">
+                                                        <i class="material-icons font-size-16pt text-primary">group_add</i>
+                                                    </span>
+                                                </span>
+                                                <span class="flex d-flex flex-column">
+                                                    <strong class="text-black-100">Adrian. D</strong>
+                                                    <span class="text-black-70">Wants to join your private group.</span>
+                                                </span>
+                                            </span>
+                                        </a>
+
+                                        <a href="javascript:void(0);"
+                                           class="list-group-item list-group-item-action">
+                                            <span class="d-flex align-items-center mb-1">
+                                                <small class="text-black-50">1 day ago</small>
+
+                                            </span>
+                                            <span class="d-flex">
+                                                <span class="avatar avatar-xs mr-2">
+                                                    <span class="avatar-title rounded-circle bg-light">
+                                                        <i class="material-icons font-size-16pt text-warning">storage</i>
+                                                    </span>
+                                                </span>
+                                                <span class="flex d-flex flex-column">
+
+                                                    <span class="text-black-70">Your deploy was successful.</span>
+                                                </span>
+                                            </span>
+                                        </a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- // END Notifications dropdown -->
+
+                        <div class="nav-item dropdown">
+                            <a href="#"
+                               class="nav-link d-flex align-items-center dropdown-toggle"
+                               data-toggle="dropdown"
+                               data-caret="false">
+
+                                <span class="avatar avatar-sm mr-8pt2">
+
+                                    <span class="avatar-title rounded-circle bg-primary"><i class="material-icons">account_box</i></span>
+
+                                </span>
+
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right">
+                                <div class="dropdown-header"><strong>Account</strong></div>
+                                <a class="dropdown-item"
+                                   href="edit-account">Edit Account</a>
+                                <a class="dropdown-item"
+                                   href="billing">Billing</a>
+                                <a class="dropdown-item"
+                                   href="billing-history">Payments</a>
+                                <a class="dropdown-item"
+                                   href="login">Logout</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- // END Navbar Menu -->
+
+                </div>
+
+                <!-- // END Navbar -->
+
+                <!-- // END Header -->
+
+                <!-- BEFORE Page Content -->
+
+                <!-- // END BEFORE Page Content -->
+
+                <!-- Page Content -->
+
+                <div class="navbar navbar-light border-0 navbar-expand-sm"
+                     style="white-space: nowrap;">
+                    <div class="container page__container flex-column flex-sm-row">
+                        <nav class="nav navbar-nav">
+                            <div class="nav-item py-16pt py-sm-0">
+                                <div class="media flex-nowrap">
+                                    <div class="media-left mr-16pt">
+                                        <a href="student-take-course"><img src="public/images/paths/angular_64x64.png"
+                                                 width="40"
+                                                 alt="Angular"
+                                                 class="rounded"></a>
+                                    </div>
+                                    <div class="media-body d-flex flex-column">
+                                        <a href="student-take-course"
+                                           class="card-title">Angular Fundamentals</a>
+                                        <div class="d-flex">
+                                            <span class="text-50 small font-weight-bold mr-8pt">Elijah Murray</span>
+                                            <span class="text-50 small">Software Engineer and Developer</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                        <ul class="nav navbar-nav ml-sm-auto align-items-center align-items-sm-end d-none d-lg-flex">
+                            <li class="nav-item active ml-sm-16pt">
+                                <a href="#"
+                                   class="nav-link">Video</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#"
+                                   class="nav-link">Downloads</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#"
+                                   class="nav-link">Notes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#"
+                                   class="nav-link">Discussions</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="bg-primary pb-lg-64pt py-32pt">
+                    <div class="container page__container">
+                        <nav class="course-nav">
+                            <a data-toggle="tooltip"
+                               data-placement="bottom"
+                               data-title="Getting Started with Angular: Introduction"
+                               href="#"><span class="material-icons">check_circle</span></a>
+                            <a data-toggle="tooltip"
+                               data-placement="bottom"
+                               data-title="Getting Started with Angular: Introduction to TypeScript"
+                               href="#"><span class="material-icons text-primary">account_circle</span></a>
+                            <a data-toggle="tooltip"
+                               data-placement="bottom"
+                               data-title="Getting Started with Angular: Comparing Angular to AngularJS"
+                               href="#"><span class="material-icons">play_circle_outline</span></a>
+                            <a data-toggle="tooltip"
+                               data-placement="bottom"
+                               data-title="Quiz: Getting Started with Angular"
+                               href="student-take-quiz"><span class="material-icons">hourglass_empty</span></a>
+                        </nav>
+                        <div class="js-player bg-primary embed-responsive embed-responsive-16by9 mb-32pt">
+                            <div class="player embed-responsive-item">
+                                <div class="player__content">
+                                    <div class="player__image"
+                                         style="--player-image: url(public/images/illustration/player.svg)"></div>
+                                    <a href="#"
+                                       class="player__play bg-primary">
+                                        <span class="material-icons">play_arrow</span>
+                                    </a>
+                                </div>
+                                <div class="player__embed d-none">
+                                    <iframe class="embed-responsive-item"
+                                            src="https://player.vimeo.com/video/97243285?title=0&amp;byline=0&amp;portrait=0"
+                                            allowfullscreen=""></iframe>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="d-flex flex-wrap align-items-end mb-16pt">
+                            <h1 class="text-white flex m-0">Introduction to TypeScript</h1>
+                            <p class="h1 text-white-50 font-weight-light m-0">50:13</p>
+                        </div>
+
+                        <p class="hero__lead measure-hero-lead text-white-50 mb-24pt">JavaScript is now used to power backends, create hybrid mobile applications, architect cloud solutions, design neural networks and even control robots. Enter TypeScript: a superset of JavaScript for scalable, secure, performant and feature-rich applications.</p>
+
+                        <a href="#"
+                           class="btn btn-white">Resume lesson</a>
+                    </div>
+                </div>
+                <div class="navbar navbar-expand-sm navbar-light bg-white border-bottom-2 navbar-list p-0 m-0 align-items-center">
+                    <div class="container page__container">
+                        <ul class="nav navbar-nav flex align-items-sm-center">
+                            <li class="nav-item navbar-list__item">
+                                <div class="media align-items-center">
+                                    <span class="media-left mr-16pt">
+                                        <img src="public/images/people/50/guy-6.jpg"
+                                             width="40"
+                                             alt="avatar"
+                                             class="rounded-circle">
+                                    </span>
+                                    <div class="media-body">
+                                        <a class="card-title m-0"
+                                           href="teacher-profile">Eddie Bryan</a>
+                                        <p class="text-50 lh-1 mb-0">Instructor</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav-item navbar-list__item">
+                                <i class="material-icons text-muted icon--left">schedule</i>
+                                2h 46m
+                            </li>
+                            <li class="nav-item navbar-list__item">
+                                <i class="material-icons text-muted icon--left">assessment</i>
+                                Beginner
+                            </li>
+                            <li class="nav-item ml-sm-auto text-sm-center flex-column navbar-list__item">
+                                <div class="rating rating-24">
+                                    <div class="rating__item"><i class="material-icons">star</i></div>
+                                    <div class="rating__item"><i class="material-icons">star</i></div>
+                                    <div class="rating__item"><i class="material-icons">star</i></div>
+                                    <div class="rating__item"><i class="material-icons">star</i></div>
+                                    <div class="rating__item"><i class="material-icons">star_border</i></div>
+                                </div>
+                                <p class="lh-1 mb-0"><small class="text-muted">20 ratings</small></p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="page-section">
+                    <div class="container page__container">
+
+                        <div class="d-flex align-items-center mb-heading">
+                            <h4 class="m-0">Discussions</h4>
+                            <a href="discussions-ask"
+                               class="text-underline ml-auto">Ask a Question</a>
+                        </div>
+
+                        <div class="border-top">
+
+                            <div class="list-group list-group-flush">
+
+                                <div class="list-group-item p-3">
+                                    <div class="row align-items-start">
+                                        <div class="col-md-3 mb-8pt mb-md-0">
+                                            <div class="media align-items-center">
+                                                <div class="media-left mr-12pt">
+                                                    <a href="#"
+                                                       class="avatar avatar-sm">
+                                                        <!-- <img src="../../LB" alt="avatar" class="avatar-img rounded-circle"> -->
+                                                        <span class="avatar-title rounded-circle">LB</span>
+                                                    </a>
+                                                </div>
+                                                <div class="d-flex flex-column media-body media-middle">
+                                                    <a href="#"
+                                                       class="card-title">Laza Bogdan</a>
+                                                    <small class="text-muted">2 days ago</small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col mb-8pt mb-md-0">
+                                            <p class="mb-8pt"><a href="discussion"
+                                                   class="text-body"><strong>Using Angular HttpClientModule instead of HttpModule</strong></a></p>
+
+                                            <a href="discussion"
+                                               class="chip chip-outline-secondary">Angular fundamentals</a>
+
+                                        </div>
+                                        <div class="col-auto d-flex flex-column align-items-center justify-content-center">
+                                            <h5 class="m-0">1</h5>
+                                            <p class="lh-1 mb-0"><small class="text-70">answers</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="list-group-item p-3">
+                                    <div class="row align-items-start">
+                                        <div class="col-md-3 mb-8pt mb-md-0">
+                                            <div class="media align-items-center">
+                                                <div class="media-left mr-12pt">
+                                                    <a href="#"
+                                                       class="avatar avatar-sm">
+                                                        <!-- <img src="../../AC" alt="avatar" class="avatar-img rounded-circle"> -->
+                                                        <span class="avatar-title rounded-circle">AC</span>
+                                                    </a>
+                                                </div>
+                                                <div class="d-flex flex-column media-body media-middle">
+                                                    <a href="#"
+                                                       class="card-title">Adam Curtis</a>
+                                                    <small class="text-muted">3 days ago</small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col mb-8pt mb-md-0">
+                                            <p class="mb-0"><a href="discussion"
+                                                   class="text-body"><strong>Why am I getting an error when trying to install angular/http@2.4.2</strong></a></p>
+
+                                        </div>
+                                        <div class="col-auto d-flex flex-column align-items-center justify-content-center">
+                                            <h5 class="m-0">1</h5>
+                                            <p class="lh-1 mb-0"><small class="text-70">answers</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <a href="discussions"
+                           class="btn btn-outline-secondary">See all discussions for this lesson</a>
+
+                    </div>
+                </div>
+
+                <!-- // END Page Content -->
+
+                <!-- Footer -->
+
+                <?php include 'footer.php'; ?>
+
+                <!-- // END Footer -->
+
+            </div>
+
+            <!-- // END drawer-layout__content -->
+
+            <!-- Drawer -->
+
+            <?php include 'left-navbar.php'; ?>
+
+            <!-- // END Drawer -->
+
+        </div>
+
+        <!-- // END Drawer Layout -->
+
+        <!-- jQuery -->
+        <script src="public/vendor/jquery.min.js"></script>
+
+        <!-- Bootstrap -->
+        <script src="public/vendor/popper.min.js"></script>
+        <script src="public/vendor/bootstrap.min.js"></script>
+
+        <!-- Perfect Scrollbar -->
+        <script src="public/vendor/perfect-scrollbar.min.js"></script>
+
+        <!-- DOM Factory -->
+        <script src="public/vendor/dom-factory.js"></script>
+
+        <!-- MDK -->
+        <script src="public/vendor/material-design-kit.js"></script>
+
+        <!-- App JS -->
+        <script src="public/js/app.js"></script>
+
+        <!-- Preloader -->
+        <script src="public/js/preloader.js"></script>
+
+    </body>
+
+</html>
